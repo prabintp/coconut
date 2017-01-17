@@ -1,4 +1,4 @@
-import { Component} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 //Import the Image interface
 import {Image} from './image.interface';
 
@@ -7,7 +7,12 @@ import {Image} from './image.interface';
   templateUrl: './csscarousel.component.html',
   styleUrls: ['./csscarousel.component.scss']
 })
-export class CSSCarouselComponent{
+export class CSSCarouselComponent implements OnInit {
+
+constructor() { }
+
+ngOnInit() {
+}
   //images data to be bound to the template
   	public images = IMAGES;
     //IMAGES array implementing Image interface
