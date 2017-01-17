@@ -14,9 +14,9 @@ constructor() { }
 ngOnInit() {
 }
   //images data to be bound to the template
-  	public images = IMAGES;
+  //	public images = IMAGES;
     //IMAGES array implementing Image interface
-    IMAGES = [
+    images = [
     { "title": "Hire Cabs for Outstation...", "url": "app/csscarousel/images/nh47-Car-Hire.jpg" },
       { "title": "Hire Cabs for Outstation...", "url": "app/csscarousel/images/athirapalli-waterfall-package.jpg" },
         { "title": "Hire Cabs for Outstation...", "url": "app/csscarousel/images/nh47-Car-Hire.jpg" },
