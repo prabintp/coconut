@@ -1,0 +1,13 @@
+$primary: #ff5722;
+h2{
+  margin:0px 15px;
+  .header-underline{
+    position: absolute;
+    height: 1px;
+    width: 5%;
+    margin-top: 4px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: $primary;
+  }
+}

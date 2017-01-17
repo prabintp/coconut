@@ -1,0 +1,102 @@
+$primary-bk: #eee;
+$primary: #59672a;
+.contactPhone{
+  color: $primary;
+}
+.brand{
+  font-weight: 500;
+  font-size: 45px;
+  color: $primary;
+  margin-left: 40px;
+}
+.main-container{
+  margin-top: 64px;
+  .left-aside{
+    float: left;
+    width:60%;
+    margin-left: 2%;
+    height:100%;
+  }
+}
+.header-underline{
+  position: absolute;
+  height: 1px;
+  width: 25%;
+  margin-top: 15px;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-color: $primary;
+}
+.co-subtoolbar{
+  h1{
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+section.container{
+  padding:15px;
+}
+.co-primary{
+  background-color: $primary-bk !important;
+}
+
+.sticky-toolbar{
+width: 100%;
+position:fixed;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+z-index: 1;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.secondary {
+  color: rgba(0,0,0,0.54);
+}
+
+
+
+md-sidenav-layout {
+  background: rgba(0,0,0,0.03);
+}
+md-sidenav{
+  background: #fff;
+}
+
+md-input {
+  margin: 8px 0;
+  width: 100%;
+}
+
+md-radio-button, md-checkbox {
+  margin: 16px 8px;
+}
+
+.form {
+  display: flex;
+}
+
+.form md-card {
+  flex-grow: 1;
+}
+
+md-card {
+  width: 400px;
+  box-sizing: border-box;
+  margin: 16px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.demo-tab-group {
+
+ .md-tab-header {
+   background: #f9f9f9;
+ }
+ .md-tab-body {
+   padding: 12px;
+ }
+}

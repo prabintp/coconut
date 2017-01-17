@@ -1,0 +1,31 @@
+ @import '~@angular/material/core/theming/all-theme';
+
+// importing inuit css framework
+@import "inuit/inuit-defaults/settings.defaults";
+@import "inuit/inuit-functions/tools.functions";
+@import "inuit/inuit-mixins/tools.mixins";
+@import "inuit/inuit-normalize/generic.normalize";
+@import "inuit/inuit-box-sizing/generic.box-sizing";
+@import "inuit/inuit-page/base.page";
+
+// NOTE: Theming is currently experimental and not yet publically released!
+
+@include md-core();
+
+$primary: md-palette($md-deep-orange);
+$accent:  md-palette($md-deep-purple, A200, A100, A400);
+$theme: md-light-theme($primary, $accent);
+@include angular-material-theme($theme);
+
+.m2app-dark {
+  $dark-primary: md-palette($md-pink, 700, 500, 900);
+  $dark-accent:  md-palette($md-blue-grey, A200, A100, A400);
+  $dark-warn:    md-palette($md-deep-orange);
+  $dark-theme: md-dark-theme($dark-primary, $dark-accent, $dark-warn);
+  @include angular-material-theme($dark-theme);
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

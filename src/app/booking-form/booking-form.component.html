@@ -1,0 +1,42 @@
+<md-card>
+  <md-card-content>
+<form [formGroup]="form" (ngSubmit)="onSubmitForm($event)">
+      <h3>Profile Details</h3>
+      <div formGroupName="name">
+        <md-input formControlName="first" placeholder="First">
+
+        </md-input>
+
+        <md-input formControlName="last" placeholder="Last Name">
+        </md-input>
+      </div>
+      <md-input formControlName="email" type="email" placeholder="Email">
+        <md-hint *ngIf="form.controls.email.errors">This field is required!</md-hint>
+      </md-input>
+      <h3>Trip  Details</h3>
+      <md-input dividerColor="accent" formControlName="pickup" placeholder="pickup destination" [class.error]="!form.controls.pickup.touched">
+                <md-hint *ngIf="form.controls['pickup'].errors && form.controls.pickup.touched">This field is required!</md-hint>
+      </md-input>
+      <md-input formControlName="drop" placeholder="drop destination">
+      </md-input>
+      <md-input formControlName="dropdate"  placeholder="pickup date">
+      </md-input>
+
+
+      <material-datepicker [(date)]="dropdate1" (onSelect)="onSelect($event)"
+        dateFormat="YYYY-MM-DD"  placeholder="pick date"></material-datepicker>
+        <div>
+
+          <button md-raised-button color="primary" type="submit">Book now</button>
+        </div>
+</form>
+</md-card-content>
+<md-card-actions>
+
+<!--
+       <p>Value: {{ form.value | json }}</p>
+        <p>Validation status: {{ form.status }} {{form.controls.pickup.touched}}</p>
+        <p>{{dropdate}} {{pickup}}</p> -->
+</md-card-actions>
+
+</md-card>
