@@ -13,7 +13,7 @@ export class DestinationListComponent implements OnInit {
   }
 
   destinations = [
-  { "title": "Elephant Sanctuary", "subtitle":"Guruvayoor elephant Sanctuary","url": "app/csscarousel/images/co-travel1.jpg" },
+  { "title": "Elephant Sanctua", "subtitle":"Guruvayoor elephant Sanctuary","url": "app/csscarousel/images/co-travel1.jpg" },
   { "title": "Beaches", "subtitle":"Snehatheeram/periyabalam/chavakkad","url": "app/csscarousel/images/co-travel1.jpg" },
   { "title": "Athirapalli waterfalls", "subtitle":"Situated in Athirappilly panchayath, Chalakudy Taluk in of Thrissur district","url": "app/csscarousel/images/co-travel1.jpg" },
   { "title": "Chettuva boating", "subtitle":"","url": "app/csscarousel/images/co-travel1.jpg" },
