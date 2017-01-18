@@ -1,8 +1,20 @@
 <div class="carousel">
   <ul class="slides">
     <li *ngFor="let image of images">
-      <h2>{{image.title}}</h2>
-      <img src="{{image.url}}" alt="">
+      <md-card>
+     <md-card-content>
+
+       <md-card-subtitle>Subtitle first</md-card-subtitle>
+       <md-card-title>Card with title</md-card-title>
+          <p>This is supporting text.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+     </md-card-content>
+       <img md-card-image src="{{image.url}}"> 
+  </md-card>
+
+      <!--<h2>{{image.title}}</h2>
+      <img src="{{image.url}}" alt="">-->
     </li>
 </ul>
 </div>

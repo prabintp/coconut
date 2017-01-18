@@ -1,7 +1,7 @@
 .carousel{
     overflow:hidden;
     width:100%;
-    height:100%;
+    height:auto;
 }
 .slides{
     list-style:none;
@@ -19,10 +19,10 @@
     width: 20%; /* 100 / number of panes */
 }
 .carousel img{
-    display:block;
+  /*  display:block;
     width:100%;
     max-width:100%;
-    height:400px;
+    height:400px;*/
 }
 .carousel h2{
     margin-bottom: 0;
@@ -56,4 +56,32 @@
     87.5% { left:-105%; }
     98.5% { left:-105%; }
     100%  { left:-5%; }
+}
+md-card{
+  padding-top: 0px;
+  md-card-content{
+    position: absolute;
+    top:50px;
+    color:#fff;
+    md-card-subtitle{
+      border-bottom: 1px dotted #fff;
+      display: inline-block;
+      padding-bottom: 25px;
+      text-transform: uppercase;
+      width: 90%;
+      color:#fff;
+    }
+    md-card-title{
+      font-size: 3rem;
+      font-family: Roboto Slab,Lucida Bright,Verdana,Georgia,serif;
+      font-weight: 100;
+      line-height: 1em;
+      letter-spacing: 1px;
+      margin-bottom: 27px;
+      margin-top: 20px;
+    }
+    p{
+
+    }
+  }
 }

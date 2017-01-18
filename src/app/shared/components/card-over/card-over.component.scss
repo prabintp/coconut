@@ -3,12 +3,24 @@
   .co-card{
     box-sizing: border-box;
     position: static;
-    width:35%;
+    width:100%;
     padding: 20px;
     min-height:500px;
-    margin-bottom: 100px;
     float: right;
     margin-right: 20px;
     margin-top: -50px;
   }
 }
+@media only screen and (max-width: 1023px) {
+    /* For tablets: */
+    .co-center{
+      .co-card{
+        margin: 0px;
+      }
+    }
+
+
+  }
+  @media only screen and (max-width: 768px) {
+      /* For mobile: */
+    }

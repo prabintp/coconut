@@ -13,11 +13,11 @@ export class DestinationListComponent implements OnInit {
   }
 
   destinations = [
-  { "title": "Elephant Sanctua", "subtitle":"Guruvayoor elephant Sanctuary","url": "app/csscarousel/images/co-travel1.jpg" },
-  { "title": "Beaches", "subtitle":"Snehatheeram/periyabalam/chavakkad","url": "app/csscarousel/images/co-travel1.jpg" },
-  { "title": "Athirapalli waterfalls", "subtitle":"Situated in Athirappilly panchayath, Chalakudy Taluk in of Thrissur district","url": "app/csscarousel/images/co-travel1.jpg" },
-  { "title": "Chettuva boating", "subtitle":"","url": "app/csscarousel/images/co-travel1.jpg" },
-  { "title": "Thrissur Zoo/Museum", "subtitle":"14/17/26 Seater @20Rs/KM","url": "app/csscarousel/images/co-travel1.jpg" },
+  { "title": "Elephant Sanctua", "subtitle":"Guruvayoor elephant Sanctuary","url": "assets/default.jpg" },
+  { "title": "Beaches", "subtitle":"Snehatheeram/periyabalam/chavakkad","url": "assets/default.jpg" },
+  { "title": "Athirapalli waterfalls", "subtitle":"Situated in Athirappilly panchayath, Chalakudy Taluk in of Thrissur district","url": "assets/default.jpg" },
+  { "title": "Chettuva boating", "subtitle":"","url": "assets/default.jpg" },
+  { "title": "Thrissur Zoo/Museum", "subtitle":"14/17/26 Seater @20Rs/KM","url": "assets/default.jpg" },
 
   ];
 

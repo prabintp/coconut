@@ -1,13 +1,20 @@
 
-<md-toolbar class="sticky-toolbar co-primary">
-
+<md-toolbar class="sticky-toolbar co-primary" color="primary">
   <button md-icon-button (click)="sidenav.open()">
     <md-icon>menu</md-icon>
-
   </button>
-  <span><img src="../assets/nh47LogoMain.png"></span>
-    <span class="contactPhone"><md-icon>phone</md-icon>9048512559</span>
-<!--<span class="brand">{{nameTitle}}</span> -->
+  <div class="brand">
+    <img src="../assets/nh47travels.png">
+    <span>{{nameTitle}}</span>
+  </div>
+
+
+
+  <div class="contactPhone">
+    <md-icon>phone</md-icon>
+    <span>9048512559</span>
+  </div>
+
 </md-toolbar>
 <md-sidenav-layout fullscreen>
   <md-sidenav #sidenav opened="false">
@@ -28,10 +35,10 @@
       </md-toolbar-row></div>
     </md-toolbar>
 
-        <aside class="left-aside">
+        <aside class="col-m-12 col-8">
           <app-csscarousel></app-csscarousel>
         </aside>
-
+        <div class="col-4 col-m-12">
         <layouts-card-over>
           <md-tab-group class="demo-tab-group">
             <md-tab>
@@ -46,28 +53,40 @@
             </md-tab>
           </md-tab-group>
         </layouts-card-over>
-
+      </div>
 
   </section>
 
-<section class="group container">
-<app-booknow></app-booknow>
-</section>
+<!-- Explore section Start ---------------------------------------------->
+  <div class="col-12">
+    <section class="row">
+      <app-header title="Explore"></app-header>
+    </section>
+    <div>
+      <section class="group container topborder">
+        <app-booknow></app-booknow>
+      </section>
+    </div>
+  </div>
+  <!-- Explore section End ---------------------------------------------->
 
-<div style="width:50%;float:left">
-<section class="group container">
-<app-header title="Popular Destination"></app-header>
-</section>
-<section class="group container" width="30%">
-<app-destination-list></app-destination-list>
-</section>
+
+
+
+<div class="col-6 col-m-12 row">
+  <section>
+    <app-header title="Popular Destination"></app-header>
+  </section>
+  <section class="group container">
+    <app-destination-list></app-destination-list>
+  </section>
 </div>
 
-<div style="width:50%;float:left">
-<section class="group container">
+<div class="col-6 col-m-12 row">
+<section>
 <app-header title="Vehicles we have" align="right"></app-header>
 </section>
-<section class="group container" width="30%">
+<section class="group container">
 <app-vehicle-list></app-vehicle-list>
 </section>
 </div>

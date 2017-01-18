@@ -11,7 +11,7 @@
         </md-input>
       </div>
       <md-input formControlName="email" type="email" placeholder="Email">
-        <md-hint *ngIf="form.controls.email.errors">This field is required!</md-hint>
+
       </md-input>
       <h3>Trip  Details</h3>
       <md-input dividerColor="accent" formControlName="pickup" placeholder="pickup destination" [class.error]="!form.controls.pickup.touched">
@@ -23,9 +23,9 @@
       </md-input>
 
 
-      <material-datepicker [(date)]="dropdate1" (onSelect)="onSelect($event)"
-        dateFormat="YYYY-MM-DD"  placeholder="pick date"></material-datepicker>
-        <div>
+  <!--    <material-datepicker [(date)]="dropdate1" (onSelect)="onSelect($event)"
+        dateFormat="YYYY-MM-DD"  placeholder="pick date"></material-datepicker> -->
+        <div class="submitButton">
 
           <button md-raised-button color="primary" type="submit">Book now</button>
         </div>

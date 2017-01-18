@@ -8,7 +8,7 @@ import {HeaderComponent} from './shared/components/header/header.component';
 })
 export class AppComponent {
   title = 'app worksgood!';
-  nameTitle = 'NH47 Travels';
+  nameTitle = 'Transplodes';
 
   routes: Object[] = [
       {
