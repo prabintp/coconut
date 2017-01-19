@@ -19,10 +19,7 @@ export class BookingFormComponent implements OnInit {
   ngOnInit() {
     this.iframeflag = 0;
   }
-  onSelect(date: Date) {
-    console.log("onSelect: ", date );
-    this.form.value.dropdate = date;
-  }
+  
 
   onloadgoogleform(){
   console.log('loades');
