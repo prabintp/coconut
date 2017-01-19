@@ -7,7 +7,7 @@ import {HeaderComponent} from './shared/components/header/header.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app worksgood!';
+  title = 'NH47 Travels | guruvayoor cabs | hire taxi';
   nameTitle = 'NH47 Travels';
 
   routes: Object[] = [

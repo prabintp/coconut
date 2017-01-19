@@ -8,7 +8,6 @@ $accent: #E6B021;
   }
   span{
     color: #fff;
-
     font-size: 28px;
     font-family: Roboto,sans-serif;
     font-weight: 100;
@@ -132,3 +131,31 @@ md-card {
    padding: 12px;
  }
 }
+
+@media only screen and (max-width: 767px) {
+    /* For mobile: */
+    .contactPhone{
+      md-icon{
+        font-size: 15px;
+      }
+      span{
+        font-size: 15px;
+      }
+    }
+
+    .co-subtoolbar{
+      h1{
+        font-size: 12px;
+      }
+    }
+
+    .header-underline{
+      width: 35%;
+      margin-top: 20px;
+    }
+
+    section.container{
+      padding:0px;
+    }
+
+  }

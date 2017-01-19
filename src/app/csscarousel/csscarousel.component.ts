@@ -17,11 +17,11 @@ ngOnInit() {
   //	public images = IMAGES;
     //IMAGES array implementing Image interface
     images = [
-    { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/nh47-Car-Hire.jpg" },
+    { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/athirapalli-waterfall-package.jpg" },
       { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/athirapalli-waterfall-package.jpg" },
-        { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/nh47-Car-Hire.jpg" },
+        { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/athirapalli-waterfall-package.jpg" },
           { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/athirapalli-waterfall-package.jpg" },
-            { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/nh47-Car-Hire.jpg" }
+            { "title": "Hire Cabs for Outstation...", "url": "assets/cimages/athirapalli-waterfall-package.jpg" }
     ];
 
 }

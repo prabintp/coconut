@@ -3,7 +3,9 @@
     width:100%;
     height:auto;
 }
+
 .slides{
+
     list-style:none;
     position:relative;
     width:505%; /* Number of panes * 100% */
@@ -21,8 +23,7 @@
 .carousel img{
   /*  display:block;
     width:100%;
-    max-width:100%;
-    height:400px;*/
+    max-width:100%;*/
 }
 .carousel h2{
     margin-bottom: 0;
@@ -59,6 +60,9 @@
 }
 md-card{
   padding-top: 0px;
+  display: block;
+  width:100%;
+  max-width:100%;
   md-card-content{
     position: absolute;
     top:50px;
@@ -85,3 +89,30 @@ md-card{
     }
   }
 }
+
+
+@media only screen and (max-width: 767px) {
+    /* For mobile: */
+    md-card{
+      padding: 0px 16px;
+      img{
+        margin-top: 0px;
+      }
+      md-card-content{
+        display: none;
+        top:30px;
+        md-card-subtitle{
+          padding-bottom: 15px;
+        }
+        md-card-title{
+          font-size: 2rem;
+          margin-bottom: 17px;
+          margin-top: 10px;
+        }
+        p{
+
+        }
+      }
+    }
+
+  }
