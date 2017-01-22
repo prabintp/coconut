@@ -48,15 +48,16 @@ $accent: #E6B021;
   margin-top: 15px;
   border-top-width: 2px;
   border-top-style: solid;
-  border-color: $primary;
+  border-color: #fff;
 }
 .co-subtoolbar{
   h1{
-    font-size: 18px;
+    font-size: 16px;
     font-family: Roboto Slab,Lucida Bright,Verdana,Georgia,serif;
     font-weight: 100;
     line-height: 1em;
     letter-spacing: 1px;
+    color: #fff;
   }
 }
 section.container{
